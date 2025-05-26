@@ -1,5 +1,8 @@
 {
   "dependencies": {
     "@mermaid-js/mermaid-cli": "^11.4.2"
+  },
+  "scripts": {
+    "generate": "mmdc -i swim_meets.mermaid -o swim_meets.svg"
   }
 }
